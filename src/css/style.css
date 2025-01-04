@@ -41,15 +41,24 @@
 .profile h5{
     color: rgb(83, 100, 113);
 }
-
+.profile button {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    font-size: 10px;
+    border: 1px solid rgb(83, 100, 113);
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(15, 20, 25);
+    cursor: pointer;
+}
 .infos li{
     list-style: none;
     display: inline-block;
     color: rgb(83, 100, 113);
 }
 img{
-    height: 50px;
-    width: 50px;
+    height: 64px;
+    width: 64px;
     border-radius: 100px;
 }
 .estatistica ul{
@@ -99,14 +108,14 @@ img{
 
 .ações a.like:hover{
     background-color: rgba(249, 24, 128, 0.1);
-    color: rgba(249, 24, 128, 0.1);;
+    color: rgba(249, 24, 128, 1);
 }
 
 .user{
     color: rgb(15, 20, 25);
 }
-.user span.data{
-    color: rgb(83, 100, 113);
+.user time{
+        color: rgb(83, 100, 113);
 }
 .user span.arroba{
     color: rgb(83, 100, 113);
